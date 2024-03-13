@@ -59,9 +59,6 @@ export const newProspecto = async (prospecto) => {
     return await requestFunction('post', `${ENDPOINT}prospectos`, prospecto)
 }
 
-export const deleteProspecto = async (id) => {
-    return await requestFunction('delete', `${ENDPOINT}prospectos/${id}`);
-}
 
 export const getStatuses = async () => {
     return await requestFunction('get', `${ENDPOINT}statuses`);

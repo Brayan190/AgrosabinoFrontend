@@ -614,6 +614,10 @@ dd {
   margin-bottom: 1rem;
 }
 
+.error-message {
+  color: red;
+  font-weight: 500;
+}
 /* Small screen breakpoint */
 @media (min-width: 600px) {
   .flex-small {

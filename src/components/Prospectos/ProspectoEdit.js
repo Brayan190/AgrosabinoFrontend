@@ -86,7 +86,7 @@ const ProspectoEdit = (props) => {
         </div>
         <h4>Documentos</h4>
         {prospecto.documents.map((document) => {
-          return <a href={`${FILES_ENDPOINT}${document.file}`} target='_blank' rel='noopener noreferrer' >{document.name}</a>
+          return <><a href={`${FILES_ENDPOINT}${document.file}`} target='_blank' rel='noopener noreferrer'>{document.name}</a><br /></>
         })}
         <form onSubmit={(e) => handleSubmit(e)}>
           <div style={{ marginTop: '30px' }}>
